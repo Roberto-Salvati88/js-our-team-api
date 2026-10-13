@@ -1,0 +1,25 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.member-card {
+  display: flex;
+  background-color: #1e1e1e;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.member-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.member-card .info {
+  padding: 10px 15px;
+}
+
+.member-card .email {
+  color: #3fa9f5;
+}
